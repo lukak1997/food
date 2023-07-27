@@ -1,0 +1,170 @@
+/* Big Tablets and 1200px */
+
+@media only screen and (max-width:1200PX) {
+
+    .hero-text-box {
+        width: 100%;
+        padding: 0 3%;
+    }
+
+    .row {
+        padding: 0 3%;
+    }
+}
+
+/* small Tablets and big tablets: from 768 to 1023px */
+
+@media only screen and (max-width:1023PX) {
+
+    body {
+        font-size: 18px;
+    }
+
+    section {
+        padding: 50px 0;
+    }
+
+    .long-copy {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .app-screen {
+        width: 50%;
+    }
+
+    .works-steps p {
+        font-size: 90%;
+
+    }
+
+    .works-steps div {
+        height: 40px;
+        width: 40px;
+    }
+
+    .btn-app img {
+        height: 40px;
+        width: auto;
+    }
+
+    .icon-small {
+        width: 15px;
+    }
+
+    .section-cities {
+        font-size: 90%;
+    }
+
+    .plan-price {
+        font-size: 30%;
+    }
+
+    .plan-box div {
+        padding: 5px;
+    }
+
+    .icon-small {
+        font-size: 200%;
+    }
+}
+
+/* small phone and small tablets: from 480 to 768 */
+
+@media only screen and (max-width:767PX) {
+
+    body {
+        font-size: 16px;
+    }
+
+    section {
+        padding: 30px;
+    }
+
+    .row,
+    .hero-text-box {
+        padding: 0 4%;
+    }
+
+    main-nav {
+        float: left;
+        margin-top: 26px;
+        margin-left: 25px
+    }
+
+    .main-nav li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        font-size: 100%;
+        padding: 10px;
+
+    }
+
+    .col {
+        width: 100%;
+        margin: 0 0 4% 0;
+    }
+
+    .long-copy {
+        width: 96%;
+        margin: left 2%;
+    }
+
+    h1 {
+        font-size: 170%;
+    }
+
+    h2 {
+        font-size: 140%;
+    }
+
+    .steps-box:first-child {
+        text-align: center;
+    }
+
+    .steps-box:last-child {
+        margin-top: 35px;
+    }
+
+    blockquote {
+        margin-top: 15%;
+        padding: 1%;
+        font-size: 110%;
+    }
+
+    .contact-form {
+        width: 80%;
+
+    }
+
+    .myRow {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        align-items: center;
+    }
+
+    .footer-left {
+        margin-bottom: 25px;
+    }
+
+
+}
+
+
+/* small phone : from 0 to 480 px */
+
+@media only screen and (max-width:480) {
+
+    .section {
+        padding: 25px o;
+    }
+
+    .contact-form {
+        width: 100%;
+    }
+}
